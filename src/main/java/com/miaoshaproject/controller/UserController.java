@@ -76,7 +76,7 @@ public class UserController extends BaseController{
         userModel.setAge(age);
         userModel.setTelphone(telphone);
         userModel.setRegisterMode("byphone");
-        //有问题，MD5Encoder.encode(),只支持16位的md5加密
+        // 有问题，MD5Encoder.encode(),只支持16位的md5加密
         //userModel.setEncrptPassword(MD5Encoder.encode(password.getBytes()));
         userModel.setEncrptPassword(MD5(password));
 
