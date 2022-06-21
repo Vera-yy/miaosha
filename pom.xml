@@ -50,7 +50,7 @@
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>5.1.40</version>
+      <version>8.0.28</version>
     </dependency>
     <!--mysql连接池，管理对应的mysql的连接，用了阿里巴巴的德鲁伊的连接池-->
     <dependency>
@@ -133,7 +133,7 @@
             <dependency>
               <groupId>mysql</groupId>
               <artifactId>mysql-connector-java</artifactId>
-              <version>5.1.40</version>
+              <version>8.0.28</version>
             </dependency>
           </dependencies>
           <executions>
